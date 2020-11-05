@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;  /* 20 toptobottom 30 leftto right */  /* 20px 30px*/
+}
+.home_header a{
+    text-decoration:none;
+    margin-right: 20px;
+    color: black;
+    font-size: 0.9em;
+}
+.home_header a:hover{
+    text-decoration: underline;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 13vw;
+}
+.avatar{
+    margin-left: 20px;
+}
+.home_body img{
+    object-fit: contain;
+    height: 95px;
+}
+.home_body{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
